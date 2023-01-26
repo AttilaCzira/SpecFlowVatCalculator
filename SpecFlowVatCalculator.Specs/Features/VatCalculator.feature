@@ -6,12 +6,12 @@ amounts to verify that my shop receipt is correct, and the
 merchant correctly charged the VAT for my recently bought items.
 
 	
-Scenario: The country select combobox is enabled and usable to select a Contry from the list
-	Given The country dropdown is visible
+Scenario: The country select combobox is enabled and usable to select a Country from the list
+	Given the country dropdown is visible
 	And the user selects Monaco in Country combobox
 	Then Monaco is the selected country
 
-Scenario:The user can select VAT rates
+Scenario: The user can select VAT rates
 	Given the user selects Germany in Country combobox
 	Then Germany is the selected country
 	And the valid VAT rates are: 7 19

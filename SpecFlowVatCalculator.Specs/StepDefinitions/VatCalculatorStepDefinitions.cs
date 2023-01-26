@@ -15,19 +15,8 @@ public class VatCalculatorStepDefinitions
     {
         _vatCalculatorPageObject = new VatCalculatorPageObject(browserDriver.Current);
     }
-    [Then(@"The title of the page is correct")]
-    public void ThenTheTitleOfThePageIsCorrect()
-    {
-        Assert.Equal(VatCalculatorPageObject.VatCalculatorEnglishTitle, _vatCalculatorPageObject.Title);
-    }
 
-    [Given(@"I have navigated to the website")]
-    public void GivenIHaveNavigatedToTheWebsite()
-    {
-        _vatCalculatorPageObject.OpenPage();
-    }
-
-    [Given(@"The country dropdown is visible")]
+    [Given(@"the country dropdown is visible")]
     public void GivenTheCountryDropdownVisible()
     {
         Assert.True(_vatCalculatorPageObject.CountryDropDownVisible);

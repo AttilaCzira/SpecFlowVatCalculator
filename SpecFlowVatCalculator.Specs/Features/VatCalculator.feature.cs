@@ -85,17 +85,17 @@ namespace SpecFlowVatCalculator.Specs.Features
             this.TestTearDown();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="The country select combobox is enabled and usable to select a Contry from the lis" +
-            "t")]
+        [Xunit.SkippableFactAttribute(DisplayName="The country select combobox is enabled and usable to select a Country from the li" +
+            "st")]
         [Xunit.TraitAttribute("FeatureTitle", "VatCalculator")]
-        [Xunit.TraitAttribute("Description", "The country select combobox is enabled and usable to select a Contry from the lis" +
-            "t")]
-        public virtual void TheCountrySelectComboboxIsEnabledAndUsableToSelectAContryFromTheList()
+        [Xunit.TraitAttribute("Description", "The country select combobox is enabled and usable to select a Country from the li" +
+            "st")]
+        public virtual void TheCountrySelectComboboxIsEnabledAndUsableToSelectACountryFromTheList()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("The country select combobox is enabled and usable to select a Contry from the lis" +
-                    "t", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("The country select combobox is enabled and usable to select a Country from the li" +
+                    "st", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 9
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -117,7 +117,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 10
- testRunner.Given("The country dropdown is visible", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("the country dropdown is visible", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 11
  testRunner.And("the user selects Monaco in Country combobox", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
