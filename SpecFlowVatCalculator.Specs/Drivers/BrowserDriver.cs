@@ -49,7 +49,7 @@ public class BrowserDriver : IDisposable
 
         if (_currentWebDriverLazy.IsValueCreated)
         {
-            //Current.Quit();
+            Current.Quit();
         }
 
         _isDisposed = true;
